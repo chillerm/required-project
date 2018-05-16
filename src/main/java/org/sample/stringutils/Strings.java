@@ -8,6 +8,6 @@ public class Strings {
    }
 
    private static String strip(Object val) {
-     return StringUtils.strip(String.valueOf(val));
+     return StringUtils.strip("Updated strip() !!!! " + String.valueOf(val));
    }
 }
